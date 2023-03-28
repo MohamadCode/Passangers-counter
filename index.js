@@ -4,10 +4,11 @@
    
 
 
-    let count = 18
+let myage = 1
+
+let humandogratio = 7
 
 
-    console.log(count)
+let count = myage * humandogratio
 
-
- 
+console.log(count)
