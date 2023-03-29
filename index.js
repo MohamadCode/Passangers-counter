@@ -3,20 +3,21 @@
 
    
 
-
-    let lap1 = 34
-    let lap2 = 33
-    let lap3 = 36
+let lapscompleted = 0
 
 
 
-    function lapsum() {
-        let sum = lap1 + lap2 + lap3 
-
-        console.log(sum)
-
-
-    }
+function lapscomplete() {
+    
+ let glapscompleted = lapscompleted + 1
 
 
-    lapsum()
+
+}
+
+lapscomplete()
+lapscomplete()
+lapscomplete()
+
+console.log(lapscompleted)
+
