@@ -2,22 +2,9 @@
 
 
    
+let count = 0
 
-let lapscompleted = 0
-
-
-
-function lapscomplete() {
-    
- let glapscompleted = lapscompleted + 1
-
-
-
+function increment() {
+   count = count + 1
+   console.log(count) 
 }
-
-lapscomplete()
-lapscomplete()
-lapscomplete()
-
-console.log(lapscompleted)
-
