@@ -4,18 +4,9 @@
    
 
 
-let bonuspoints = 50
+function increment() {
+    console.log("42")
+    
+}
 
-
-bonuspoints = bonuspoints + 100 
-
-console.log(bonuspoints)
-
-bonuspoints = bonuspoints - 25
-
-console.log(bonuspoints)
-
-bonuspoints = bonuspoints + 70
-console.log(bonuspoints)
-
-console.log(bonuspoints)
+increment
