@@ -4,11 +4,7 @@
    
 
 
-let myage = 1
-
-let humandogratio = 7
+let bonuspoints = 50
 
 
-let count = myage * humandogratio
-
-console.log(count)
+console.log(bonuspoints)
