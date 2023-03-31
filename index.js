@@ -1,7 +1,11 @@
     // document.getElementById("count-el").innerText = 5
 
 
-   
+  
+    let counEl = document.getElementById("count-el")
+
+    console.log(counEl)
+
 let count = 0
 
 
@@ -11,4 +15,4 @@ function increment() {
 
     console.log(count)
     
-}
+}          
