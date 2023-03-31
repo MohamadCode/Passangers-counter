@@ -14,10 +14,8 @@ function increment() {
 
 
 
-let saVe = document.getElementById("save") 
 
-
-function savee(params) {
-    console.log(saVe)
+function save(params) {
+    console.log(count)
     
 }
