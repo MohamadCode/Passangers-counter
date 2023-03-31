@@ -2,7 +2,6 @@
 
 
 let countEl = document.getElementById("count-el")
-
 let count = 0
 
 
@@ -12,3 +11,13 @@ function increment() {
    countEl.innerText = count
 
 }          
+
+
+
+let saVe = document.getElementById("save") 
+
+
+function savee(params) {
+    console.log(saVe)
+    
+}
