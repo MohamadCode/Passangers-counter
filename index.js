@@ -1,21 +1,14 @@
-    // document.getElementById("count-el").innerText = 5
-
-
-let countEl = document.getElementById("count-el")
-let count = 0
-
-
-
-function increment() {
-    count = count + 1
-   countEl.innerText = count
-
-}          
 
 
 
 
-function save(params) {
-    console.log(count)
-    
-}
+let Name = "muhammed"
+
+let greeting = "Hi, my name"
+
+
+
+let myGreeting = greeting + ", " + Name
+
+
+console.log(myGreeting)
