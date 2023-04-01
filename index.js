@@ -1,23 +1,34 @@
 
 
-let counteEl = document.getElementById("count-el")
+// let counteEl = document.getElementById("count-el")
 
-console.log(counteEl)
-
-
-let count = 0
+// console.log(counteEl)
 
 
-function increment() {
-    count = count + 1
-    counteEl.innerText = count
-    console.log(count)
-}
+// let count = 0
+
+
+// function increment() {
+//     count = count + 1
+//     counteEl.innerText = count
+//     console.log(count)
+// }
 
 
 
-function save() {
+// function save() {
 
 
-    console.log(count)
-}
+//     console.log(count)
+// }
+
+
+
+let countEl = document.getElementById("count-el")
+
+
+let name = "Muhammed"
+let greeting = "Welcome Back, "
+
+
+countEl.innerText = greeting + name
