@@ -27,8 +27,12 @@
 let countEl = document.getElementById("count-el")
 
 
-let name = "Muhammed"
+let Name = "Muhammed"
 let greeting = "Welcome Back, "
 
 
-countEl.innerText = greeting + name
+countEl.innerText = greeting + Name
+
+
+Name = Name + "👋"
+
