@@ -1,14 +1,10 @@
 
 
+let challenge = "New Challengeeer"
+
+let Name = "JIIIIN KAZAAMAAAAAA"
+
+let announcer = challenge + ", " + Name
 
 
-let Name = "muhammed"
-
-let greeting = "Hi, my name"
-
-
-
-let myGreeting = greeting + ", " + Name
-
-
-console.log(myGreeting)
+console.log(announcer)
