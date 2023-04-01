@@ -1,10 +1,15 @@
 
 
-let challenge = "New Challengeeer"
+let counteEl = document.getElementById("count-el")
 
-let Name = "JIIIIN KAZAAMAAAAAA"
-
-let announcer = challenge + ", " + Name
+console.log(counteEl)
 
 
-console.log(announcer)
+let count = 0
+
+
+function increment() {
+    count = count + 1
+    counteEl.innerText = count
+    console.log(count)
+}
