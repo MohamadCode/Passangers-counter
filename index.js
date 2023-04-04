@@ -5,16 +5,15 @@ let count = 0
 
 
 function increment() {
-    count = count + 1
+    count += 1
     counteEl.innerText = count
-    console.log(count)
 }
 
 
 
 function save() {
-
-
+    entry += " -"
+    saveEl.innerText = entry``
     console.log(count)
 }
 
