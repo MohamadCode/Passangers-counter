@@ -11,7 +11,7 @@ function increment() {
 
 
 function save() {
-    let entry = " - "
+    let entry = count +g " - "
     saveEl.innerText += entry
 
     console.log(count)
