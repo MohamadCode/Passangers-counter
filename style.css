@@ -8,6 +8,14 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 100vh;
+}
+
+.max {
+    max-width: 80%;
+    background-color: gray;
+    margin: 0 auto;
+    border-radius: 3px solid white;
 }
 
 h1 {
