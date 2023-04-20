@@ -6,9 +6,10 @@ let count = 0
 function increment() {
     count += 1
     counteEl.textContent = count 
-    
 
 }
+
+
 
 
 
@@ -19,6 +20,5 @@ function save() {
     count = 0
     console.log(count)
 }
-
 
 
