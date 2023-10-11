@@ -26,5 +26,7 @@ h2 {
     padding: 10px 15px;
     border-radius: 9px;
     font-size: 20px;
+    font-weight: bold;
     background-color: #FBE09E;
+    cursor: pointer;
 }
