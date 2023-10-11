@@ -1,3 +1,4 @@
+let streakEl = document.getElementById("streak-el")
 let countEl = document.getElementById("count-el")
 console.log(countEl)
 
@@ -9,12 +10,16 @@ console.log(count)
 
 function increment() {
 
-    count = count + 1
+    count += 1
     countEl.textContent = count
 }
 
 
 function save() {
-    let saving = "you reached " + count
-    console.log(saving)
+
+    let Streaksave = count + "  - "
+
+    streakEl.textContent += Streaksave
+    countEl.textContent = 0
+    count = 0
 }
