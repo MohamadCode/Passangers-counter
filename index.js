@@ -11,5 +11,10 @@ function increment() {
 
     count = count + 1
     countEl.textContent = count
-    console.log(count)
+}
+
+
+function save() {
+    let saving = "you reached " + count
+    console.log(saving)
 }
